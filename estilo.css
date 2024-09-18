@@ -1,0 +1,93 @@
+table{
+    width: 100%;
+text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+td{
+    width: 5%;
+height: 5vh;
+}
+td:hover{
+    transform: scale(1.1);
+}
+
+.elemento{ border: solid 1px;}
+.header{ font-size: 3em;}
+.NM{background-color: rgb(103, 200, 94);}
+.GN{background-color: rgb(52, 154, 237);}
+.MA{background-color: rgb(236, 141, 73);}
+.MAT{background-color: rgb(226, 226, 83);}
+.S{background-color: rgb(44, 195, 154);}
+.H{background-color: rgb(69, 189, 240);}
+.OM{background-color: rgb(158, 205, 217);}
+.MDT{background-color: rgb(241, 126, 126);}
+.L{background-color: rgb(90, 240, 232);}
+.A{background-color: rgb(206, 152, 211);}
+
+footer{
+    font-size:.8em;
+    text-align: left;
+    flex-basis:13.5rem;
+    margin:-.25em 0 0 1em;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 1em;
+}
+
+li{
+    flex-basis:100%;
+    line-height:1.25;
+    margin-bottom:1em;
+}
+
+li::before{
+    content: ' ';
+    display: inline-block;
+    width:1em;
+    height:1em;
+    border:.125rem;
+    margin-right:.5em;
+    position:relative;
+    top:.25em;
+}
+
+/*Rodape 2*/
+footer{
+    font-size:1em;
+    width:100%;
+    margin:2em 0;
+}
+
+ul{
+    justify-content: center;
+}
+
+li{
+    flex-basis:auto;
+    margin-bottom:0;
+}
+
+li+li{
+    margin-left:2em;
+}
+
+body{
+    font-size:.75em;
+}
+
+td{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+br{
+    margin: 20px;
+}
